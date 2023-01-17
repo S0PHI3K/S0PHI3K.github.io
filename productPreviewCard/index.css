@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+
+  }
+
+container {
+    display: flex;
+    flex-direction: row;
+}
+
+image {
+
+}
+
+contents {
+
+}
+
+prices {
+
+}
+
+button {
+    
+}
