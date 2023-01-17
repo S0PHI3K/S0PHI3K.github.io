@@ -25,13 +25,46 @@
 
 .contents {
     background-color: hsl(0, 0%, 100%);
+    font-family: Fraunces;
 
+color: hsl(212, 21%, 14%);
+
+
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    font-family:Fraunces ;
+}
+
+.title {
+color: hsl(212, 21%, 14%);
+font-family: Montserrat;
+}
+
+.notes {
+    color: hsl(228, 12%, 48%);
+    font-family:Fraunces ;
 }
 
 .prices {
+    display: flex;
+    flex-direction: row;
+}
+
+.offer-price {
+    color:hsl(158, 36%, 37%);
+    font-family: Montserrat;
 
 }
 
-button {
+.previous-price {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+}
 
+button {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    border-radius: 10px;
 }
