@@ -6,13 +6,19 @@
 
   }
 
+background {
+    background-color: hsl(30, 38%, 92%);
+  }
 container {
     display: flex;
     flex-direction: row;
+    max-width: 1440px;
+    align-content: center;
 }
 
 image {
-
+    width: 720px
+    height: 
 }
 
 contents {
@@ -24,5 +30,5 @@ prices {
 }
 
 button {
-    
+
 }
