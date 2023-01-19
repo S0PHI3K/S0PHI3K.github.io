@@ -1,13 +1,3 @@
-/* @font-face {
-    font-family: Montserrat;
-    src: url(https://fonts.google.com/specimen/Montserrat);
-    font-family: Fraunces;
-    src: url(https://fonts.google.com/specimen/Fraunces);
-
-  } */
-
-@import url('https://fonts.googleapis.com/css?family=Fraunces&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .background {
     background-color: hsl(30, 38%, 92%);
@@ -40,7 +30,7 @@ img {
     color: hsl(228, 12%, 48%);
     font-family: Montserrat;
     letter-spacing: 6px;
-    font-size: small;
+    font-size: smaller;
     margin-top: 30px;
 }
 
@@ -48,7 +38,7 @@ img {
     color: hsl(212, 21%, 14%);
     font-family: Fraunces;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
