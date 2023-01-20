@@ -10,7 +10,7 @@ Product Preview Card
 
 - [x] [**Challenge**](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
-- [x] [Respository]()
+- [x] [Respository](https://github.com/S0PHI3K/S0PHI3K.github.io/tree/main/productPreviewCard)
 
 - [x] [Live Site](https://s0phi3k.github.io/productPreviewCard/)
 
