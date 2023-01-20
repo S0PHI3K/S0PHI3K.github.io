@@ -1,7 +1,6 @@
-
 .background {
     background-color: hsl(30, 38%, 92%);
-  }
+}
 .container {
     position: relative;
     display: flex;
@@ -15,11 +14,17 @@
     overflow: hidden;
 }
 
+.mobile {
+    display: none;
+}
+
 img {
     max-width: 300px;
     max-height: 475px;
     border-radius: 10px, 10px, 0px, 0px;
 }
+
+
 
 .contents {
     margin-left: 30px;
@@ -92,10 +97,47 @@ button {
     height: 50px;
     text-align: center;
     padding-top: 15px;
+    transition-duration: 0.4s;
 }
 
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+    color: hsl(0, 0%, 100%);
+}
 .cart {
     margin-top: 2px;
     margin-left: 50px;
     margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        max-height: 100vh;
+        margin-top: 5vh;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+    img {
+        max-width: 90vw;
+        max-height: 55vh;
+        border-radius: 10px, 10px, 0px, 0px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+    .cart {
+        margin-left: 70px;
+    }
 }
