@@ -1,0 +1,183 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: block;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'Outfit';
+    max-width: 30vw;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 15px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    border-radius: 10px;
+}
+
+.card {
+    display: block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    top: 0;
+    left: 0;
+}
+
+.sale-item {
+    border-radius: 10px;
+    margin-top: 3vh;
+    max-height: 45vh;
+    max-width: 26vw;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 20vh;
+    left: 19vh;
+    opacity: 0;
+    transition: .5s ease;
+    object-fit: cover;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2vh;
+}
+
+h2:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+    line-height: 1.6;
+    margin-bottom: 3vh;
+    margin-top: 0;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.price-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.ethereum {
+    max-height: 3vh;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+}
+
+.time-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.clock {
+    margin-right: 5px;
+    max-width: 3vw;
+    max-height: 3vw;
+}
+
+.time-limit {
+    color: hsl(215, 51%, 70%);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.border {
+    margin-top: 4vh;
+    margin-bottom: 4vh;;
+    border: 0.25px ridge hsl(215, 51%, 70%);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.owner {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    max-width: 5vw;
+    max-height: 5vh;
+    margin-right: 15px;
+    margin-bottom: 3vh;
+}
+.creator {
+    color: hsl(215, 51%, 70%);
+    margin-top: 5px;
+}
+
+b {
+    color: hsl(0, 0%, 100%);
+}
+
+b:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        max-width: 85vw;
+        margin: auto;
+        margin-top: 6vh;
+        border-radius: 15px;
+    }
+    
+    .card {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .sale-item {
+        border-radius: 10px;
+        margin-top: 3vh;
+        max-height: 45vh;
+        max-width: 76vw;
+        align-self: center;
+    }
+    
+    .clock {
+        max-width: 5vw;
+        max-height: 5vw;
+    }
+    
+    .border {
+        margin-top: 3vh;
+        margin-bottom: 3vh;;
+    }
+    
+    .owner {
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+
+
+}
