@@ -21,8 +21,7 @@ body {
     height: 250px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    Text-shadow: 0px 0px 1px #DEB982
-    
+    Text-shadow: 0px 0px 1px #DEB982;
 }
 
 .title {
@@ -34,4 +33,36 @@ body {
 
 #subtitle {
     margin: 0;
+}
+
+main {
+    background-color: #E8D1A8;
+    
+}
+
+.activity-title {
+    margin-top: 0;
+    padding-top: 10px;
+}
+.activity-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    font-size: 12px;
+}
+
+.activity-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity {
+    font-weight: bold;
+}
+
+.activity-description {
+    font-style: italic;
 }
