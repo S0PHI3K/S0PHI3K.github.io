@@ -11,9 +11,9 @@ During this project, my learning and focus goals were:
 
 The three main challenges I faced were:
 
-- [] The flex-box items having different sizes. I solved this by using flex-basis.
-- [] The background: linear-gradient() did not fit the entire page. I solved this by using background-attachment: fixed;
-- [] Positioning the tour guide card. I solved this by adding in an additional <div class="empty-container">
+- [ ] The flex-box items having different sizes. I solved this by using flex-basis.
+- [ ] The background: linear-gradient() did not fit the entire page. I solved this by using background-attachment: fixed;
+- [ ] Positioning the tour guide card. I solved this by adding in an additional <div class="empty-container">
 
 Here is the [live site]()
 Here is the [repository]()
