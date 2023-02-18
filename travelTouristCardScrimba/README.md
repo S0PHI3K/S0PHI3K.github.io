@@ -15,5 +15,6 @@ The three main challenges I faced were:
 - [ ] The background: linear-gradient() did not fit the entire page. I solved this by using background-attachment: fixed;
 - [ ] Positioning the tour guide card. I solved this by adding in an additional <div class="empty-container">
 
-Here is the [live site](https://s0phi3k.github.io/travelTouristCardScrimba/)
-Here is the [repository](https://github.com/S0PHI3K/S0PHI3K.github.io/tree/main/travelTouristCardScrimba)
+Here is the link to the [live site](https://s0phi3k.github.io/travelTouristCardScrimba/)
+  
+Here is the link to the  [repository](https://github.com/S0PHI3K/S0PHI3K.github.io/tree/main/travelTouristCardScrimba)
