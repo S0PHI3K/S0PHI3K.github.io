@@ -2,6 +2,7 @@ body {
     font-family: quicksand, sans-serif;
     text-align: center;
     background: linear-gradient(teal, pink);
+    background-attachment: fixed;
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .hero {
@@ -48,16 +50,19 @@ main {
 .activity-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: start;
     padding: 0 40px 0 40px;
     font-size: 12px;
+}
+
+.activity-overview {
+    flex-basis: 33%;
 }
 
 .activity-image {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     border: 2px solid #2E1707;
 }
 
@@ -70,7 +75,7 @@ main {
 }
 
 footer {
-    background-color: #A0BAD3;
+    background-color: #E5E5E7;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -86,16 +91,18 @@ footer {
     align-items: center;
     width: 300px;
     height: 200px;
-    background-color: #E8D1A8;
+    background: linear-gradient(#7A9DC3, #A0BAD3, #E8D1A8, #B9A079);
     margin: 0 auto;
-    border: 3px solid #2E1707;
+    border: 3px solid #A0BAD3;
+    Text-shadow: 0px 0px 1px #E8D1A8;
+    border-radius: 20px;
 }
 
 .tour-guide-img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: 2px solid #A0BAD3;
+    border: 2px solid #2E1707;
     margin-left: 20px;
 }
 
