@@ -2,6 +2,8 @@
 
 > I completed this project as part of the my #100DaysofCode Challenge. I completed it over day 3 and day 4. 
 
+The [link](https://scrimba.com/playlist/pYkn7u4) to the original project
+
 During this project, my learning and focus goals were:
 
 - [x] Increasing confidence with Flexbox
