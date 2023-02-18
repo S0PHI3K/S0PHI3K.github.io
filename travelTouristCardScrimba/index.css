@@ -58,6 +58,7 @@ main {
 
 .activity-overview {
     flex-basis: 33%;
+    padding: 0 15px;
 }
 
 .activity-image {
