@@ -1,0 +1,103 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75)
+    /* font-size: 15px; */
+}
+
+/* Layout */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin: 120px auto;
+}
+
+.card-sedans, .card-suvs, .card-luxury {
+    padding: 50px;
+    flex-basis: 300px;
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 60px;
+    line-height: 1.6;
+    letter-spacing: 0.5px; 
+}
+
+button {
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-accent-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-accent-2 {
+    color: hsl(184, 100%, 22%);
+}
+.btn-accent-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 325px;
+        margin: 50px auto;
+    }
+
+    .card-sedans, .card-suvs, .card-luxury {
+        flex-basis: none;
+    }
+
+    .card-sedans {
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .card-luxury {
+        border-radius: 0 0 15px 15px;
+    }
+
+    p {
+        padding-bottom: 10px;
+    }
+
+}
