@@ -1,0 +1,141 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(300, 43%, 22%);
+    /* background-image: url(images/bg-pattern-top-desktop.svg) ;
+    background-image: url(images/bg-pattern-bottom-desktop.svg) ; */
+}
+
+/* layout */
+
+.container {
+    width: 1000px;
+    margin: 6em auto;
+}
+
+.header {
+    display: flex;
+}
+
+.title-subheading {
+    width: 500px;
+}
+
+.rating-reviews {
+    width: 500px;
+    display: grid;
+    grid-template: repeat(3, 70px) / repeat(12, 1fr);
+    grid-template-areas: 
+        ". a a a a a a a a a . ."
+        ". . b b b b b b b b b ."
+        ". . . c c c c c c c c c";
+}
+
+.stars-1 {
+    grid-area: a;
+}
+
+.stars-2 {
+    grid-area: b;
+}
+
+.stars-3 {
+    grid-area: c;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.5em;
+    width: 350px;
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+    padding: .25em;
+}
+
+.ratings-statements {
+    margin-left: 20px;
+}
+
+.customer-reviews {
+    width: 1000px;
+    display: grid;
+    grid-template: repeat(12, 20px) / repeat(3, 1fr);
+    grid-template-areas: 
+        "a . ."
+        "a b ."
+        "a b c"
+        "a b c"
+        "a b c"
+        "a b c"
+        "a b c"
+        "a b c"
+        "a b c"
+        "a b c"
+        ". b c"
+        ". . c";
+}
+
+.customer-1 {
+    grid-area: a;
+}
+
+.customer-2 {
+    grid-area: b;
+}
+
+.customer-3 {
+    grid-area: c;
+}
+
+.single-customer-review {
+    width: 275px;
+    padding: 25px;
+}
+.customer-header {
+    display: flex;
+}
+
+.customer-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+/* Typography */
+
+.subheading {
+    color: hsl(303, 10%, 53%);
+}
+.stars {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.ratings-statements {
+    font-weight: 700;
+}
+
+.single-customer-review {
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.customer-info {
+    padding: 10px 20px;;
+}
+
+.customer-name {
+    font-weight: 700;
+    margin: 0
+}
+
+.verified-buyer {
+    color: hsl(333, 80%, 67%);
+    margin: 5px 0;
+}
