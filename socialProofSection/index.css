@@ -2,8 +2,8 @@ body {
     font-family: 'League Spartan', sans-serif;
     background-color: hsl(0, 0%, 100%);
     color: hsl(300, 43%, 22%);
-    /* background-image: url(images/bg-pattern-top-desktop.svg) ;
-    background-image: url(images/bg-pattern-bottom-desktop.svg) ; */
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
 }
 
 /* layout */
@@ -14,16 +14,20 @@ body {
 }
 
 .header {
+    margin: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .title-subheading {
-    width: 500px;
+    width: 40%;
 }
 
 .rating-reviews {
-    width: 500px;
+    width: 55%;
+    margin: 1.5em 0;
     display: grid;
+    grid-gap: 1em 0;
     grid-template: repeat(3, 70px) / repeat(12, 1fr);
     grid-template-areas: 
         ". a a a a a a a a a . ."
@@ -47,23 +51,24 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em 2em;
     width: 350px;
 }
 
 .star-icon {
-    width: 20px;
-    height: 20px;
-    padding: .25em;
+    width: 15px;
+    height: 15px;
+    margin: .25em;
 }
 
 .ratings-statements {
-    margin-left: 20px;
+    margin-left: 1.2em;
 }
 
 .customer-reviews {
-    width: 1000px;
     display: grid;
+    grid-gap: 0 1em;
+    margin: 2em 0;
     grid-template: repeat(12, 20px) / repeat(3, 1fr);
     grid-template-areas: 
         "a . ."
@@ -93,8 +98,7 @@ body {
 }
 
 .single-customer-review {
-    width: 275px;
-    padding: 25px;
+    padding: 1.5em;
 }
 .customer-header {
     display: flex;
@@ -107,13 +111,21 @@ body {
 }
 /* Typography */
 
-.subheading {
-    color: hsl(303, 10%, 53%);
+.title {
+    font-size: 3rem;
+    margin: 0;
 }
+
+.subheading {
+    font-size: 1rem;
+    color: hsl(303, 10%, 53%);
+    margin: 2em 0;
+    line-height: 1.4;
+}
+
 .stars {
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px;
-    margin-bottom: 1em;
 }
 
 .ratings-statements {
@@ -127,7 +139,7 @@ body {
 }
 
 .customer-info {
-    padding: 10px 20px;;
+    padding: 10px 20px;
 }
 
 .customer-name {
@@ -138,4 +150,38 @@ body {
 .verified-buyer {
     color: hsl(333, 80%, 67%);
     margin: 5px 0;
+}
+
+.customer-comments {
+    line-height: 1.2;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 0;
+    }
+
+    .header, .rating-reviews, .customer-reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-subheading, .rating-reviews {
+        width: 95%;
+        
+    }
+    /* .rating-reviews {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 2em;
+        text-align: center;
+    }
 }
