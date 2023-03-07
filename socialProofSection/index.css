@@ -173,7 +173,6 @@ body {
         width: 95%;
         margin: 0;
         padding: 0;
-        border: 5px solid black;
     }
 
     .header, .rating-reviews, .customer-reviews, .stars {
