@@ -1,0 +1,146 @@
+:root {
+    --darkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+
+}
+
+/* Layout */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: var(--darkBlue)
+}
+
+.container {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 3em auto;
+    width: 50%;
+    text-align: center;;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    margin: 0 1em;
+    flex-basis: 27%;
+}
+
+.card-image-container {
+    display: flex;
+    justify-content: end;
+}
+
+
+/* Typography */
+
+.title-one {
+    font-weight: 200;
+    margin: 0;
+}
+
+.title-two {
+    font-weight: 600;
+    margin: 0;
+}
+
+.title-subheading {
+    color: var(--grayishBlue);
+}
+
+.card {
+    background-color: white;
+    border-radius: 7px;
+    margin: 0;
+    padding: 1.4em 2em;
+    box-shadow: 10px 10px 30px var(--grayishBlue)
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 2em;
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card-description {
+    font-weight: 400;
+    color: var(--grayishBlue);
+    font-size: 0.80rem;
+}
+
+.card-image {
+    width: 25%;
+    margin-top: 1em;
+}
+
+@media (max-width: 600px) {
+
+    /* Layout */
+
+    .container {
+        width: 90%;
+    }
+    
+    .header {
+        margin: 3em auto;
+        width: 95%;
+        text-align: center;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .column {
+        margin: 0;
+        flex-basis: 0;
+    }
+
+    /* Typography */
+
+    .title-one, .title-two {
+        font-size: 1.5rem;
+    }
+
+    .title-subheading {
+        color: var(--grayishBlue);
+    }
+    
+    .card {
+        margin-bottom: 2em;
+    }
+    
+    .team-builder {
+        margin-bottom: 2em;
+    }
+
+}
