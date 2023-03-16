@@ -4,10 +4,14 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Layout */
 
 body {
-    margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
     color: var(--darkBlue)
@@ -47,12 +51,10 @@ body {
 
 .title-one {
     font-weight: 200;
-    margin: 0;
 }
 
 .title-two {
     font-weight: 600;
-    margin: 0;
 }
 
 .title-subheading {
@@ -62,9 +64,11 @@ body {
 .card {
     background-color: white;
     border-radius: 7px;
-    margin: 0;
     padding: 1.4em 2em;
-    box-shadow: 10px 10px 30px var(--grayishBlue)
+    box-shadow: 10px 10px 30px var(--grayishBlue);
+    height: 20vh;
+    width: 20vw;
+    margin-bottom: 2em;
 }
 
 .supervisor {
@@ -73,7 +77,6 @@ body {
 
 .team-builder {
     border-top: 5px solid hsl(0, 78%, 62%);
-    margin-bottom: 2em;
 }
 
 .karma {
@@ -87,7 +90,6 @@ body {
 .card-title {
     font-weight: 600;
     font-size: 1.2rem;
-    margin: 0;
 }
 
 .card-description {
@@ -97,9 +99,10 @@ body {
 }
 
 .card-image {
-    width: 25%;
+    width: 6vw;
     margin-top: 1em;
 }
+
 
 @media (max-width: 600px) {
 
@@ -119,11 +122,6 @@ body {
         display: flex;
         flex-direction: column;
     }
-    
-    .column {
-        margin: 0;
-        flex-basis: 0;
-    }
 
     /* Typography */
 
@@ -132,15 +130,17 @@ body {
     }
 
     .title-subheading {
-        color: var(--grayishBlue);
+        padding-top: 1em;
     }
     
     .card {
+        height: 22vh;
+        width: 70vw;
         margin-bottom: 2em;
     }
-    
-    .team-builder {
-        margin-bottom: 2em;
+
+    .card-image {
+        width: 18vw;
     }
 
 }
