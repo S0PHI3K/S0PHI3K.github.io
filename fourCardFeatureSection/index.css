@@ -51,13 +51,16 @@ body {
 
 .title-one {
     font-weight: 200;
+    font-size: 2rem;
 }
 
 .title-two {
     font-weight: 600;
+    font-size: 2rem;
 }
 
 .title-subheading {
+    margin-top: 1.5em;
     color: var(--grayishBlue);
 }
 
