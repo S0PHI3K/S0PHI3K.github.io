@@ -106,7 +106,7 @@ body {
     justify-content: center;
 }
 
-span {
+.span {
     text-align: center;
     color: var(--orange);
     background-color: var(--mediumGrey);
