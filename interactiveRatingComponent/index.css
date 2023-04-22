@@ -30,7 +30,7 @@ body {
 }
 
 .text-content {
-    margin-top: 2em;
+    margin: 2em 0;
 
 }
 
@@ -57,18 +57,24 @@ body {
 .score {
     color: var(--darkGrey);
     text-align: center;
-    padding: 0.85em 1.25em;
+    padding: 1em 1.5em;
     background-color: var(--lightGrey);
     border-radius: 50%;
+    border: none;
 }
 
-.score:hover {
+.score:hover  {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.score:active {
     background-color: var(--orange);
     color: var(--white);
 }
 
 .wide-button {
-    margin: 1em 0;
+    margin: 2em 0;
     
 }
 .submit-button {
