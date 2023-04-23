@@ -4,7 +4,6 @@ const rates = document.querySelectorAll(".score")
 
 rates.forEach((rate)=> {
     rate.addEventListener("click", () => {
-        // rate.style.backgroundColor = 'hsl(25, 97%, 53%)'
         rating.innerHTML = rate.innerHTML
     })
 })
