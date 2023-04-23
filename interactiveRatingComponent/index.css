@@ -5,9 +5,11 @@
     --darkBlue: hsl(213, 19%, 18%);
     --veryDarkBlue: hsl(216, 12%, 8%);
     --orange: hsl(25, 97%, 53%);
+    --secondary: hsl(213deg, 20%, 22%);
 }
 
 body {
+    display: block;
     font-family: 'Overpass', sans-serif;
     background-color: var(--veryDarkBlue);
 }
@@ -23,7 +25,7 @@ body {
 }
 
 .star-image {
-    background-color: var(--mediumGrey);
+    background-color: var(--secondary);
     border-radius: 50%;
     padding: 0.75em
 
@@ -55,10 +57,10 @@ body {
 }
 
 .score {
-    color: var(--darkGrey);
+    color: var(--mediumGrey);
     text-align: center;
     padding: 1em 1.5em;
-    background-color: var(--lightGrey);
+    background-color: var(--secondary);
     border-radius: 50%;
     border: none;
 }
