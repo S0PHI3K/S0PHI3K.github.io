@@ -1,0 +1,83 @@
+:root {
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--DarkBlue);
+    color: var(--LightCyan);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 30vh auto;
+    max-width: 35vw;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    background-color: var(--DarkGrayishBlue);
+    padding: 2em;
+    text-align: center;
+    position: relative; 
+}
+
+#advice {
+    color: var(--NeonGreen);
+    letter-spacing: 0.35em;
+    font-size: 12px;
+}
+
+#statement {
+    font-size: 28px;
+}
+
+.divider-image {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    max-width: 35vw;
+    width: fit-content;
+}
+
+.dice-button {
+    background-color: var(--NeonGreen);
+    border: none;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dice-button:hover {
+    box-shadow: 0 0 40px var(--NeonGreen);
+}
+
+.dice-image {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin: 10vh auto;
+        max-width: 70vw
+    }
+
+    .divider-image {
+        max-width: 70vw
+    }
+}
+
