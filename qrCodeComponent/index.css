@@ -1,0 +1,32 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+   font-family: 'Outfit', sans-serif; 
+   background-color: var(--LightGray);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 25%;
+    max-height: 50%;
+    background-color: var(--White);
+}
+
+.qr-code {
+    max-height: 30vh;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.title {
+
+}
+
+.subtitle {
+    font-size: 15px;
+}
