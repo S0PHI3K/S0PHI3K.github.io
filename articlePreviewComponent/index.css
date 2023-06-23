@@ -1,0 +1,146 @@
+:root {
+    --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+    --GrayishBlue: hsl(212, 23%, 69%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: var(--LightGrayishBlue);
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    
+}
+
+.container{
+    display: flex;
+    max-width: 750px;
+    max-height: 300px;
+    border-radius: 20%;
+    margin: 15% auto;
+    font-size: 13px;
+    
+}
+
+.main-image{
+    height: auto; 
+    width: auto; 
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 40px;
+}
+
+.title {
+    font-weight: 700;
+    color: var(--VeryDarkGrayishBlue);
+    margin: 0;
+    font-size: 22px;
+
+}
+
+.subtitle {
+    font-weight: 500;
+    color: var(--DesaturatedDarkBlue);
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+}
+
+.author-information {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.author {
+    display: flex;
+}
+
+.author-picture {
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 65px; 
+    max-height: 55px;
+}
+
+.author-details {
+    padding: 5px 20px;
+}
+
+.author-name {
+    color: var(--VeryDarkGrayishBlue);
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.author-date {
+    color: var(--GrayishBlue);
+    font-weight: 500;
+    margin: 0;
+}
+.share-background {
+    background-color: var(--LightGrayishBlue);
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 55px; 
+    max-height: 30px;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.social-share {
+    height: auto; 
+    width: auto; 
+    max-width: 35px; 
+    max-height: 35px;
+    padding: 5px;
+    
+}
+
+.share-background:hover {
+    background-color: var(--VeryDarkGrayishBlue);
+}
+
+.social-share:hover {
+    /* background-color: white; */
+}
+
+.active-share {
+    background-color: var(--VeryDarkGrayishBlue);
+    display: flex;
+    justify-content: center;;
+    border-radius: 15px;
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    padding: 10px;
+}
+
+.share-text {
+    color: var(--DesaturatedDarkBlue);
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 5px;
+    padding-right: 15px
+}
+
+.social-images {
+    
+}
+
+.share-social-media {
+    height: auto; 
+    width: auto; 
+    max-width: 25px; 
+    max-height: 25px;
+    padding: 5px;
+}
