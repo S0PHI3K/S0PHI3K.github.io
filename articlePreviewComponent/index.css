@@ -8,8 +8,7 @@
 body {
     background-color: var(--LightGrayishBlue);
     font-family: 'Manrope', sans-serif;
-    margin: 0;
-    
+    margin: 0;  
 }
 
 .container{
@@ -19,7 +18,6 @@ body {
     border-radius: 20%;
     margin: 15% auto;
     font-size: 13px;
-    
 }
 
 .main-image{
@@ -39,7 +37,6 @@ body {
     color: var(--VeryDarkGrayishBlue);
     margin: 0;
     font-size: 22px;
-
 }
 
 .subtitle {
@@ -93,8 +90,7 @@ body {
     max-width: 55px; 
     max-height: 30px;
     align-items: center;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .social-share {
@@ -110,12 +106,6 @@ body {
 .share-background:hover {
     background-color: var(--VeryDarkGrayishBlue);
 }
-
-/* .social-share:hover {
-    background-color: white;
-    -webkit-mask: url(images/icon-share.svg) no-repeat center;
-  mask: url(images/icon-share.svg) no-repeat center;
-} */
 
 .active-share {
     background-color: var(--VeryDarkGrayishBlue);
@@ -145,10 +135,6 @@ body {
     padding-right: 15px
 }
 
-/* .social-images {
-    
-} */
-
 .share-social-media {
     height: auto; 
     width: auto; 
@@ -171,3 +157,56 @@ right:97px;
 
 }
 
+@media (max-width: 600px) {
+    .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    max-height: 600px;
+    border-radius: 20%;
+    margin: 20% 5%;
+    }
+
+    .main-image{
+        max-width: 500px;
+        max-height: 300px;
+        border-radius: 5% 5% 0% 0%;
+    }
+
+    .main-content {
+        padding: 30px;
+        border-radius: 0% 0% 5% 5%
+    }
+
+    .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .social-share {
+        position: sticky;
+    }
+
+    .active-share {
+        background-color: var(--VeryDarkGrayishBlue);
+        top: 75%;
+        left: 5%;
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 0px 0px 15px 15px;
+        height: 70px; 
+        min-width: 75%; 
+    }
+
+    .triangle:before {
+        display: none;
+    }
+    
+    .share-text {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+
+    .share-social-media {
+        padding: 20px 10px;
+    }
+}
