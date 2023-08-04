@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* ---------------------------------------------------------- block 1 ------------------------------------------------------ */
+  .delivery-block {
+    display: flex;
+    justify-content: center;
+    background-color: #31353c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.6rem;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .delivery-block-paragraph {
+    color: white;
+  }
+  <!-- /* ---------------------------------------------------------- block 2 ------------------------------------------------------ */ -->
+  .logo-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .logo-style {
+    width: 336.34px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  <!-- /* ---------------------------------------------------------- block 3 ------------------------------------------------------ */ -->
+  .nav-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .list-style {
+    display: flex;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.25rem;
+  }
+  .align-list-items {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+  }
+  .icon-instagram {
+    padding-right: 10px;
+  }
+  .icon-facebook {
+    padding-right: 160px;
+  }
+  .icon-search {
+    padding-right: 10px;
+    padding-left: 160px;
+  }
+  .icon-account {
+    padding-right: 10px;
+  }
+  .icon-basket {
+    padding-right: 10px;
+  }
+  <!-- /* ---------------------------------------------------------- block 4 ------------------------------------------------------ */ -->
+  .hero-banner {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    }
+  .banners {
+   align-items: center;
+  }
+  <!-- /* ---------------------------------------------------------- block 5 ------------------------------------------------------ */ -->
+  .statement {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
+  .statement-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.9rem;
+    font-weight: 600;
+  }
+  .statement-subhead {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    color: #c3bfc6;
+  }
+  <!-- /* ---------------------------------------------------------- block 6 ------------------------------------------------------ */ -->
+  .product-block-container-1 {
+    display: flex;
+    justify-content: center;
+    }
+    .product-block-1:hover {
+      background-color: #eaeaeb;
+    }
+  .product-block-1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 20px;
+    justify-content: space-around;
+    margin-top: 100px; 
+    }
+  .product-image {
+    width:80%;
+  }
+  .product-group-purple {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    color: #bbaec2;
+  }
+  .product-group-orange {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    letter-spacing: 0.3em;
+    color: #F89977;
+  }
+  .product-title {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+  }
+  .price-style {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    font-size: 20px;
+    letter-spacing: 0.3em;
+  }
+  .button-link {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    text-decoration-color: #bbaec2;
+    padding-bottom: 20px;
+  }
+  <!-- /* ---------------------------------------------------------- block 7 ------------------------------------------------------ */ -->
+    .company-information {
+    width: 100%;
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    
+  }
+  .company-information-block {
+    display: flex;
+    width: 100%;
+  }
+  .satori-vital-info {
+    width: 50%;
+  }
+  .satori-vital-image {
+    width: 50%;
+    text-align: right;
+    margin-right: 74px;
+  }
+  .info-head {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    padding-top: 80px;
+  }
+  .info-subhead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    color: #abb8c3;
+  }
+  .info-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    letter-spacing: 0.1rem;
+    line-height: 1.8;
+    padding-right: 200px;
+  }
+  .button-read-more {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    background-color: #c3bfc6;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    margin-top: 60px;
+  }
+  .satori-vital-image {
+    width: 50%;
+    padding-right: 200px;
+  }
+  <!-- /* ---------------------------------------------------------- block 8 ------------------------------------------------------ */ -->
+       
+    .shop-cards-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .coloured-card-1 {
+    align-items: center;
+    background-color: #f8d873;
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 40px;
+  }
+  .coloured-card-2 {
+    background-color: #b4c17a;
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 40px;
+  }
+  .coloured-card-3 {
+    background-color: #bbaec2;
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 40px;
+  }
+  .coloured-card-4 {
+    background-color: #b7e6e6;
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    line-height: 1.8;
+    padding-bottom: 40px;
+  }
+  .coloured-card-icons {
+    padding-top: 30px;
+  }
+  <!-- /* ---------------------------------------------------------- block 9 ------------------------------------------------------ */ -->
+  .product-block-container-2 {
+    display: flex;
+    justify-content: center;
+  }
+    .product-block-2:hover {
+      background-color: #eaeaeb;
+  }
+  .product-block-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 20px;
+    justify-content: space-around;
+    margin-bottom: 70px;
+  }
+  .product-image {
+    width:80%;
+  }
+  .product-group-2-orange {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    color: #F89977;
+  }
+  .product-group-2-purple {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    color: #bbaec2;
+  }
+  .product-group-2-green {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    color: #B4C17A;
+  }
+  .product-group-2-blue {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    color: #75D1FF;
+  }
+  .product-title-2 {
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-thickness: 1px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  <!-- /* ---------------------------------------------------------- block 10 ------------------------------------------------------ */ -->
+  <!-- /* ---------------------------------------------------------- block 11 ------------------------------------------------------ */ -->
+  .reviews {
+    display: flex;
+    justify-content: center;
+    }
+  .review-style {
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  <!-- /* ---------------------------------------------------------- block 12 ------------------------------------------------------ */ -->
+  .center-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 100px;
+    }
+    .margin-bottom {
+      margin-bottom: 100px;
+    }
