@@ -1,61 +1,82 @@
-root: 
+:root {
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+}
 
 * {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
 
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: var(--PaleBlue);
+  height: 100vh;
 }
 
 .container {
-
+  width: 27vw;
+  height: auto;
+  margin: 0 auto;
 }
 
 .card-component {
-
+  width: 100%;
+  margin-top: 10vh;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .main-image {
-
+  width: 100%;
+  border-radius: 25px 25px 0 0;
 }
 
 .card-content {
-
+  padding: 10%;
+  text-align: center;
 }
 
 .title {
-
 }
 
 .subtitle {
-
 }
 
 .plan-details {
-
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--VeryPaleBlue);
+  border-radius: 15px;
+  padding: 5%;
 }
 
 .music-svg {
-
 }
 
 .price-details {
-
 }
 
 .plan-title {
-
 }
 
 .plan-subtitle {
-
 }
 
 .change-link {
-
 }
 
 .payment {
-
+  background-color: var(--BrightBlue);
+  color: white;
+  width: 100%;
 }
 
 .cancel {
-    
+  color: var(--DesaturatedBlue);
 }
