@@ -10,6 +10,7 @@
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
 body {
@@ -20,14 +21,14 @@ body {
 }
 
 .container {
-  width: 27vw;
+  width: 32vw;
   height: auto;
   margin: 0 auto;
 }
 
 .card-component {
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-color: white;
   border-radius: 25px;
 }
@@ -43,40 +44,103 @@ body {
 }
 
 .title {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
 }
 
 .subtitle {
+  color: var(--DesaturatedBlue);
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.55;
 }
 
 .plan-details {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--VeryPaleBlue);
   border-radius: 15px;
-  padding: 5%;
+  padding: 8%;
+  margin-bottom: 2em;
+}
+
+.plan-image {
+  display: flex;
 }
 
 .music-svg {
 }
 
 .price-details {
+  margin-left: 1em;
 }
 
 .plan-title {
+  font-weight: 800;
+  padding-bottom: 0.25em;
 }
 
 .plan-subtitle {
+  color: var(--DesaturatedBlue);
 }
 
 .change-link {
+  color: var(--BrightBlue);
+  text-decoration: underline;
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.change-link:hover {
+  text-decoration: none;
+  opacity: 0.75;
 }
 
 .payment {
   background-color: var(--BrightBlue);
   color: white;
-  width: 100%;
+  box-shadow: 0px 10px 25px hsl(224, 23%, 55%);
+}
+
+.payment:hover {
+  opacity: 0.75;
+}
+
+.button {
+  width: auto;
+  margin-top: 1em;
+  border-radius: 10px;
+  padding: 0.75em 0.5em;
+  
+}
+
+.payment-message {
+    font-size: 0.9rem;
+    font-weight: 900;
 }
 
 .cancel {
   color: var(--DesaturatedBlue);
+}
+
+.cancel:hover {
+  color: var(--DarkBlue);
+}
+
+.cancel-message {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90vw;
+  }
+
+  .card-component {
+    margin-top: 5vh;
+
+  }
+
 }
