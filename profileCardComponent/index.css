@@ -1,113 +1,111 @@
 :root {
-    --DarkCyan: hsl(185, 75%, 39%);
-    --VeryCarkDesaturatedBlue: hsl(229, 23%, 23%);
-    --DarkGrayishBlue: hsl(227, 10%, 46%);
-    --DarkGray: hsl(0, 0%, 59%);
+  --DarkCyan: hsl(185, 75%, 39%);
+  --VeryCarkDesaturatedBlue: hsl(229, 23%, 23%);
+  --DarkGrayishBlue: hsl(227, 10%, 46%);
+  --DarkGray: hsl(0, 0%, 59%);
 }
 
 * {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
-    margin: 0;
-    text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
 }
 
 body {
-    background-color: var(--DarkCyan);
+  background-color: var(--DarkCyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -65% 115%, 150% -110%;
 }
 
 .card-component {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 18vh;
-    width: 25vw;
-    height: auto;
-    border-radius: 25px;
-
+  position: relative;
+  margin: 0 auto;
+  margin-top: 25vh;
+  width: 25vw;
+  height: auto;
+  border-radius: 25px;
 }
 
 .whole-card {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-
-
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .top-card {
-    width: 100%;
-
+  width: 100%;
 }
 
 .card-image {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .card-profile-image {
-    border-radius: 50px;
-    border: 5px solid white;
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  border-radius: 50px;
+  border: 5px solid white;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .name {
-    display: flex;
-    margin-top: 10vh;
-    margin-bottom: 1vh;
-    justify-content: center;
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 1vh;
+  justify-content: center;
 }
 
 .profile-name {
-    margin-right: 1em;
-
+  margin-right: 1em;
 }
 
 .profile-age {
-    color: var(--DarkGray);
+  color: var(--DarkGray);
 }
 
 .profile-location {
-    font-size: 0.85rem;
-    color: var(--DarkGray)
+  font-size: 0.85rem;
+  color: var(--DarkGray);
 }
 
 .line {
-    background-color: var(--DarkGray);
-    opacity: 0.5;
-    width: 100%;
-    height: 0.15vh;
-    margin: 3vh 0;
-
+  background-color: var(--DarkGray);
+  opacity: 0.5;
+  width: 100%;
+  height: 0.15vh;
+  margin: 3vh 0;
 }
 
 .social-stats {
- display: flex;
- justify-content: space-around;
- 
+  display: flex;
+  justify-content: space-around;
 }
 
 .stat {
-font-weight: 700;
+  font-weight: 700;
 }
 
 .topic {
-    color: var(--DarkGray);
-    font-size: 0.6rem;
-    letter-spacing: 2px;
-    padding-top: 0.5em;
-    margin-bottom: 3vh;
-
+  color: var(--DarkGray);
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  padding-top: 0.5em;
+  margin-bottom: 3vh;
 }
 
 @media (max-width: 600px) {
+  body {
+    background-position: 120% 160%, -25% -100%;
+  }
 
-    .card-component {
-        margin-top: 18vh;
-        width: 95vw;
-    }
-
+  .card-component {
+    margin-top: 25vh;
+    width: 85vw;
+  }
 }
